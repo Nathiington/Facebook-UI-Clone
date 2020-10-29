@@ -1,0 +1,79 @@
+        /*################# Google Fonts ####################*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&display=swap");
+
+        /* ################## Font Awesome CDN ####################### */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+       /* ################## Bootstrap CDN ####################### */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.1/css/bootstrap.min.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+.facebook .f-navbar {
+    padding: 10px;
+    background: #3B5998;
+    color: #fff;
+}
+.facebook .f-navbar .logo {
+    float: left;
+    font-family: "Darker Grotesque" , sans-serif;
+    font-size: 45px;
+    letter-spacing: 1.3px;
+}
+.facebook .f-navbar .login {
+    float: right;
+    font-size: 12px;
+}
+.facebook .f-navbar .login table .third_row{
+    color: rgb(177, 177, 177);
+}
+.facebook .f-navbar .login table tr td input[type="password"] ,
+.facebook .f-navbar .login table tr td input[type="email"] {
+    width: 150px;
+    height: 25px;
+    margin-right: 10px;
+}
+.facebook .f-content{
+    background: linear-gradient(#FEFEFF , #D4D9E8);
+}
+.facebook .f-content .login_form .cookie_policy span{
+    font-size: 10px;
+    color: rgb(49, 46, 46);
+    line-height: 12px;
+}
+.facebook .f-footer .footer_list{
+    list-style: none;
+}
+.facebook .f-footer .footer_list li{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+}
+.form_inner_container{
+    width: 60%;
+}
+.End_of_the_Form{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.facebook .f-content .select-field{
+margin-left: 5px;
+margin-right: 10px;
+}
+.facebook .f-content .select-field .col{
+    padding: 0!important;
+}
+div i.fa{
+    margin-left: 10px;
+}
+.headings{
+    margin-top: 30px;
+    font-weight: 600;
+    color:rgb(70, 70, 70);
+}
+
+/* 74 lines of css styles */
